@@ -19,7 +19,7 @@ Solutions are organized by beecrowd category:
 08-geometry/
 ```
 
-Each file is named `<problem-id>-<problem-name>.cpp` and starts with a short header:
+Each file is named `<problem-id>.cpp` and starts with a short header:
 
 ```cpp
 // beecrowd 1018 - Banknotes
@@ -30,7 +30,7 @@ Each file is named `<problem-id>-<problem-name>.cpp` and starts with a short hea
 ## Compiling and running
 
 ```bash
-g++ -std=c++17 -Wall 01-beginner/1018-banknotes.cpp -o solution
+g++ -std=c++17 -Wall 01-beginner/1018.cpp -o solution
 ./solution
 ```
 
